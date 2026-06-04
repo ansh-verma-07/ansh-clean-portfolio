@@ -1,4 +1,4 @@
-import { JWt, alkemy, ainewsaggregator, launchpad, skillxchange, dental_learning, vibehack } from '@/public';
+import { JWt } from '@/public';
 import { Facebook, Github, Globe, Instagram, Linkedin, Mail, MessageCircleMore, Newspaper, Twitter } from 'lucide-react';
 
 import {
@@ -142,7 +142,7 @@ export const projectsItem = [
 		id: 1,
 		slug: 'alkemy-2025',
 		title: 'Alkemy 2025',
-		src: alkemy,
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551060/1_qjy0bt.jpg',
 		role: 'Lead Frontend Developer & Interactive Designer',
 		client: 'Bharati Vidyapeeth University DET & DMS',
 		timeline: 'Jan 2025 - Feb 2025',
@@ -153,24 +153,24 @@ export const projectsItem = [
 			"The website embraces a <strong>medieval-inspired theme</strong>, offering an engaging and interactive user experience. It features a dynamic event calendar, categorized event filters, real-time registration system, and a dedicated Student Council directory showcasing the team behind Alkemy.",
 			"Designed with <strong>React + TypeScript</strong> and styled using <strong>Tailwind CSS</strong>, Alkemy 2025 combines performance, aesthetics, and usability. With <strong>Framer Motion</strong> animations and a fully responsive layout, it ensures seamless navigation across all devices."
 		],
-		repoUrl: 'https://github.com/verma07ansh/Alkemy-2025',
+		repoUrl: '',
 		liveUrl: 'https://alkemy-bvdu-2025.netlify.app/',
 		stack: ['React', 'TypeScript', 'Tailwind', 'Framer Motion', 'Vite', 'Hostinger', 'Netlify'],
 		gallery: [
 			{
-				image: '/projects-screenshots/alkemy2025/1.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551060/1_qjy0bt.jpg',
 				caption: 'Medieval-themed hero section with dynamic event calendar.',
 			},
 			{
-				image: '/projects-screenshots/alkemy2025/2.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551060/2_rkfqlp.jpg',
 				caption: 'Event registration interface with categorized filters.',
 			},
 			{
-				image: '/projects-screenshots/alkemy2025/3.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551061/3_wontki.jpg',
 				caption: 'Student Council directory showcase.',
 			},
 			{
-				image: '/projects-screenshots/alkemy2025/4.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551063/4_uvzk5n.png',
 				caption: 'Responsive about page with dynamic details view.',
 			},
 		],
@@ -201,7 +201,7 @@ export const projectsItem = [
 		id: 2,
 		slug: 'skillxchange',
 		title: 'SkillXChange',
-		src: skillxchange,
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551110/1_w8tzqb.jpg',
 		role: 'Full Stack Architect & UX Designer',
 		client: 'Academic Open Source Project',
 		timeline: 'Oct 2024 - Dec 2024',
@@ -212,32 +212,32 @@ export const projectsItem = [
 			"Built with <strong>React.js</strong>, <strong>Vite</strong>, and <strong>Tailwind CSS</strong>, and powered by <strong>Firebase</strong> for authentication and database management, the platform emphasizes real-time communication, secure user access, and smart skill matching. It provides a responsive, intuitive interface for discovering, requesting, and managing skill exchanges seamlessly.",
 			"Key features include <strong>Firebase authentication</strong> with secure routing, <strong>intelligent skill matching</strong> between users, <strong>real-time chat rooms</strong> for connected learners, and a full-featured <strong>Admin Dashboard</strong> for monitoring, moderation, and analytics. It fosters a global learning community built on knowledge exchange rather than transactions."
 		],
-		repoUrl: 'https://github.com/verma07ansh/SkillXChange',
+		repoUrl: 'https://github.com/anshvermadev/SkillXChange',
 		liveUrl: 'https://skillxchanged.netlify.app/',
 		stack: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Firebase', 'Netlify'],
 		gallery: [
 			{
-				image: '/projects-screenshots/skillXChange/1.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551110/1_w8tzqb.jpg',
 				caption: 'Skill bartering platform homepage.',
 			},
 			{
-				image: '/projects-screenshots/skillXChange/2.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551112/2_nfcpnl.png',
 				caption: 'Intelligent skill matching interface.',
 			},
 			{
-				image: '/projects-screenshots/skillXChange/3.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551112/3_bsws77.jpg',
 				caption: 'User profile and skill management.',
 			},
 			{
-				image: '/projects-screenshots/skillXChange/4.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551112/4_gwq2fk.jpg',
 				caption: 'Responsive skill exchange request view.',
 			},
 			{
-				image: '/projects-screenshots/skillXChange/5.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551112/5_y8qnvk.jpg',
 				caption: 'Real-time chat room for connected learners.',
 			},
 			{
-				image: '/projects-screenshots/skillXChange/6.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551117/6_bofgb0.jpg',
 				caption: 'Admin dashboard for monitoring and analytics.',
 			},
 		],
@@ -268,7 +268,7 @@ export const projectsItem = [
 		id: 3,
 		slug: 'modern-blogging-platform',
 		title: 'Modern Blogging Platform',
-		src: vibehack,
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551151/vibe-hack_ylgbir.png',
 		role: 'Senior Full Stack & Infrastructure Engineer',
 		client: 'Developer Community Showcase',
 		timeline: 'Feb 2025 - Mar 2025',
@@ -280,32 +280,32 @@ export const projectsItem = [
 			"Its architecture integrates a <strong>React + TypeScript frontend</strong> with <strong>Express.js, MongoDB,</strong> and <strong>Redis backend</strong>, forming a scalable, secure, and feature-rich ecosystem. It supports multiple user roles — Guest, Author, and Admin — each equipped with tailored privileges for content creation, engagement, and moderation.",
 			"Key highlights include <strong>deep analytics dashboards</strong>, <strong>real-time engagement tracking</strong>, <strong>secure session management</strong>, and an <strong>AI-powered moderation suite</strong>. Designed with performance, scalability, and user experience at its core, this project represents a complete full-stack blogging solution."
 		],
-		repoUrl: 'https://github.com/verma07ansh/VIBE-HACK-2025',
+		repoUrl: 'https://github.com/anshvermadev/VibeHack-2025-Blogging-Website',
 		liveUrl: 'https://vibe-hack-2025-hmm5.vercel.app/',
 		stack: ['React', 'TypeScript', 'Tailwind', 'Shadcn UI', 'Framer Motion', 'Vite', 'Node.js', 'Express', 'MongoDB', 'Redis', 'JWT', 'Vercel'],
 		gallery: [
 			{
-				image: '/projects-screenshots/modernbloggingplatform/1.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551091/1_wd3pj9.png',
 				caption: 'Modern blogging platform homepage.',
 			},
 			{
-				image: '/projects-screenshots/modernbloggingplatform/2.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551089/2_chwgar.png',
 				caption: 'Arciles page to view and read blog posts.',
 			},
 			{
-				image: '/projects-screenshots/modernbloggingplatform/3.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551091/3_r1d0oe.png',
 				caption: 'Responsive blog post view.',
 			},
 			{
-				image: '/projects-screenshots/modernbloggingplatform/4.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551089/4_ju97ex.png',
 				caption: 'Blog post creation with rich text editor.',
 			},
 			{
-				image: '/projects-screenshots/modernbloggingplatform/5.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551090/5_b5wmmv.png',
 				caption: 'Role-based access control interface.',
 			},
 			{
-				image: '/projects-screenshots/modernbloggingplatform/6.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551091/6_u0dlsa.png',
 				caption: 'Responsive Admin dashboard with analytics.',
 			},
 		],
@@ -341,7 +341,7 @@ export const projectsItem = [
 		id: 4,
 		slug: 'patient-awareness-system',
 		title: 'Patient Awareness System',
-		src: dental_learning,
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551152/dental-learning_bztgce.png',
 		role: 'Lead Developer & Localization Specialist',
 		client: 'Bharati Vidyapeeth Dental College & Hospital',
 		timeline: 'Nov 2024 - Jan 2025',
@@ -352,32 +352,32 @@ export const projectsItem = [
 			"Built using <strong>React + TypeScript</strong> and powered by <strong>Firebase</strong>, the system integrates modern web technologies such as <strong>Tailwind CSS</strong>, <strong>Lucide Icons</strong>, and <strong>Framer Motion</strong> for an elegant and responsive user experience. The platform is divided into three localized versions — <strong>English, Hindi, and Marathi</strong> — each maintaining the same structure and functionality, ensuring accessibility for a diverse audience.",
 			"For visitors, it offers detailed sections on treatments, departments, and courses, along with an <strong>interactive campus map</strong> and comprehensive contact details. For administrators, the platform includes a <strong>secure admin dashboard</strong> for managing treatments, uploading videos, updating FAQs, and modifying service data. The multi-language implementation ensures consistent, localized healthcare communication for patients and learners alike."
 		],
-		repoUrl: 'https://github.com/verma07ansh/Dental-Learning-Website',
+		repoUrl: 'https://github.com/anshvermadev/BVP-Dental-Learning-Website',
 		liveUrl: 'https://dental-learning.netlify.app/',
 		stack: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Framer Motion', 'Lucide', 'Firebase', 'Netlify'],
 		gallery: [
 			{
-				image: '/projects-screenshots/patientAwarenessSystem/1.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551101/1_dpcsso.jpg',
 				caption: 'Homepage with treatment information.',
 			},
 			{
-				image: '/projects-screenshots/patientAwarenessSystem/2.png',
-				caption: 'Interactive campus map',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551101/2_kxx5us.jpg',
+				caption: 'Multi-languages information page.',
 			},
 			{
-				image: '/projects-screenshots/patientAwarenessSystem/3.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551101/3_ijkkdz.jpg',
 				caption: 'Admin dashboard for content management.',
 			},
 			{
-				image: '/projects-screenshots/patientAwarenessSystem/4.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551101/4_avp0ct.jpg',
 				caption: 'Service details page.',
 			},
 			{
-				image: '/projects-screenshots/patientAwarenessSystem/5.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551102/5_ijlil4.jpg',
 				caption: 'Treatment video library.',
 			},
 			{
-				image: '/projects-screenshots/patientAwarenessSystem/6.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551102/6_apto0p.jpg',
 				caption: 'Interactive campus map',
 			},
 		],
@@ -408,7 +408,7 @@ export const projectsItem = [
 		id: 5,
 		slug: 'ai-news-aggregator',
 		title: 'AI News Aggregator',
-		src: ainewsaggregator,
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551150/ai-news-aggregator_hp2dog.png',
 		role: 'NLP Engineer & Lead Architect',
 		client: 'Academic AI Research Showcase',
 		timeline: 'Sep 2024 - Oct 2024',
@@ -420,20 +420,20 @@ export const projectsItem = [
 			"Built with <strong>React 18 + TypeScript</strong> and <strong>Tailwind CSS</strong> on the frontend, and a <strong>Flask (Python)</strong> backend handling AI processing, the project combines efficient data fetching with deep NLP integration. The backend also uses <strong>BeautifulSoup</strong> and <strong>Newspaper3k</strong> for parsing and extracting article content, while the <strong>Transformers</strong> library powers intelligent summarization and hallucination prevention.",
 			"Comprehensive tests ensure reliability across diverse article types, achieving accurate summarization, entity preservation, and performance optimization. The platform demonstrates practical application of AI in journalism and real-time information systems."
 		],
-		repoUrl: 'https://github.com/verma07ansh/NEWS-AGGREGATOR',
-		liveUrl: 'https://github.com/verma07ansh/NEWS-AGGREGATOR',
+		repoUrl: 'https://github.com/anshvermadev/AI-News-Aggregator-with-Smart-Summarization',
+		liveUrl: '',
 		stack: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Python', 'Flask', 'Hugging Face', 'Newspaper3k'],
 		gallery: [
 			{
-				image: '/projects-screenshots/ai-news-aggregator/1.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780550339/1_dh9ptk.png',
 				caption: 'AI-powered news aggregation dashboard.',
 			},
 			{
-				image: '/projects-screenshots/ai-news-aggregator/2.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551035/3_zbnhzt.png',
 				caption: 'Page before AI summarization and sentiment analysis.',
 			},
 			{
-				image: '/projects-screenshots/ai-news-aggregator/3.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551035/2_h5aqg6.png',
 				caption: 'Page after AI summarization and sentiment analysis.',
 			},
 		],
@@ -464,7 +464,7 @@ export const projectsItem = [
 		id: 6,
 		slug: 'ecell-launchpad',
 		title: 'E-Cell Launchpad',
-		src: launchpad,
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551150/launchpad_xstr8o.png',
 		role: 'Frontend Architect & Contributor',
 		client: 'University Entrepreneurship Cell',
 		timeline: 'Jul 2024 - Aug 2024',
@@ -479,19 +479,19 @@ export const projectsItem = [
 		stack: ['React', 'Tailwind', 'Vite', 'Framer Motion', 'React Router', 'Google Apps Script', 'Google Sheets'],
 		gallery: [
 			{
-				image: '/projects-screenshots/ecell-launchpad/1.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551073/1_xjrrsq.png',
 				caption: 'E-Cell Launchpad homepage.',
 			},
 			{
-				image: '/projects-screenshots/ecell-launchpad/2.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551073/2_hlkdc3.png',
 				caption: 'Mentorship and startup resources section.',
 			},
 			{
-				image: '/projects-screenshots/ecell-launchpad/3.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551074/3_wlhi1p.png',
 				caption: 'Featured startups showcase.',
 			},
 			{
-				image: '/projects-screenshots/ecell-launchpad/4.png',
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551073/4_ckty9m.png',
 				caption: 'Community connection interface.',
 			},
 		],
