@@ -111,7 +111,7 @@ export const footerItems = [
 	{
 		id: 1,
 		title: 'Github',
-		url: 'https://github.com/verma07ansh',
+		url: 'https://github.com/anshvermadev',
 		imageSrc: '',
 	},
 	{
@@ -474,7 +474,7 @@ export const projectsItem = [
 			"<strong>E-Cell Launchpad</strong> is a dynamic web platform developed to empower student entrepreneurs by offering them access to mentorship, startup resources, and a vibrant community of innovators.",
 			"<strong>E-Cell Launchpad</strong> emphasizes collaboration and community-building, integrating social media links to connect users directly with mentors, founders, and event organizers."
 		],
-		repoUrl: 'https://github.com/verma07ansh/E-cell-Launchpad',
+		repoUrl: '',
 		liveUrl: 'https://launchpad-by-ecell.netlify.app/',
 		stack: ['React', 'Tailwind', 'Vite', 'Framer Motion', 'React Router', 'Google Apps Script', 'Google Sheets'],
 		gallery: [
