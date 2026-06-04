@@ -3,6 +3,7 @@ const nextConfig = {
 	images: {
 		domains: [
 			'api.microlink.io', // Microlink Image Preview
+			'res.cloudinary.com', // Cloudinary Images
 		],
 	},
 	transpilePackages: [
