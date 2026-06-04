@@ -19,7 +19,21 @@ export default function Project({ item }: { item: any }) {
 					</div>
 					<div className="relative w-full group">
 						<div className="rounded-[10px] overflow-hidden hover:scale-[0.95] transition cursor-pointer  transform duration-[1s] ease-[.4,0,.2,1]" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
-							<Image src={item.src} alt={`${item.title}Img`} className="w-full object-cover rounded-[10px] group-hover:scale-[1.09]  transform duration-[1s] ease-[.4,0,.2,1]" />
+							{typeof item.src === 'string' ? (
+								<Image
+									src={item.src}
+									alt={`${item.title}Img`}
+									width={1200}
+									height={800}
+									className="w-full object-cover rounded-[10px] group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]"
+								/>
+							) : (
+								<Image
+									src={item.src}
+									alt={`${item.title}Img`}
+									className="w-full object-cover rounded-[10px] group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]"
+								/>
+							)}
 						</div>
 						<div style={{ left: item.id % 2 == 0 ? '-15%' : '90%' }} className="absolute w-fit flex top-[40%] transform translate-x-[-30%] overflow-hidden z-10 group-hover:opacity-100 opacity-0 transition duration-500 ease-[.4,0,.2,1]">
 							{item.title.split('').map((item: any, i: number) => (
