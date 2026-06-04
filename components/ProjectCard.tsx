@@ -29,7 +29,21 @@ export default function ProjectCard({ item }: { item: any }) {
 					onMouseEnter={() => setHovered(true)}
 					onMouseLeave={() => setHovered(false)}
 				>
-					<Image src={item.src} alt={`${item.title}Img`} className="w-full object-cover rounded-[10px] group-hover:scale-[1.09] group-hover:blur-[4px] transition-all transform duration-[1s] ease-[.4,0,.2,1]" />
+					{typeof item.src === 'string' ? (
+						<Image
+							src={item.src}
+							alt={`${item.title}Img`}
+							width={1200}
+							height={800}
+							className="w-full object-cover rounded-[10px] group-hover:scale-[1.09] group-hover:blur-[4px] transition-all transform duration-[1s] ease-[.4,0,.2,1]"
+						/>
+					) : (
+						<Image
+							src={item.src}
+							alt={`${item.title}Img`}
+							className="w-full object-cover rounded-[10px] group-hover:scale-[1.09] group-hover:blur-[4px] transition-all transform duration-[1s] ease-[.4,0,.2,1]"
+						/>
+					)}
 				</TransitionLink>
 				<div
 					style={{ left: '50%' }}
