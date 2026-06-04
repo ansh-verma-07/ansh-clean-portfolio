@@ -518,6 +518,54 @@ export const projectsItem = [
 			},
 		],
 	},
+	{
+    id: 7,
+    slug: 'rawcert',
+    title: 'RawCert',
+    src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/2_dmhgqj.png',
+    role: 'Solo Developer',
+    client: 'Personal / Open Source',
+    timeline: 'May 2026',
+    challengeTitle: 'Certificates Deserve Better Than Getting Cropped',
+    solutionTitle: 'A Neo-Brutalist Scene Generator for Social-Ready Credentials',
+    summary: [
+        "<strong>RawCert</strong> is a premium, browser-based certificate scene generator that transforms raw landscape PDFs and images into cinematic, scroll-stopping social media showcases — wrapping credentials inside a high-fidelity macOS window mockup set against rich gradient backdrops.",
+        "<strong>RawCert</strong> is built as a zero-dependency, single-file static application with a bold Neo-Brutalist design system, featuring drag-and-drop uploads, interactive styling controls, a curated wallpaper engine, and one-click high-resolution PNG export optimized for every major social platform."
+    ],
+    repoUrl: 'https://github.com/anshvermadev/RawCert-Premium-Certificate-Scene-Generator',
+    liveUrl: '',
+    stack: ['HTML', 'CSS', 'JavaScript', 'PDF.js', 'html2canvas'],
+    gallery: [
+        {
+            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/1_nnm85g.png',
+            caption: 'RawCert editor with Neo-Brutalist interface.',
+        },
+        {
+            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554206/3_kc53mm.png',
+            caption: 'Backdrop wallpaper engine with curated gradient presets and theme options.',
+        },
+        {
+            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554207/4_ics0d2.png',
+            caption: 'macOS window mockup with interactive shadow and border controls.',
+        },
+        {
+            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/2_dmhgqj.png',
+            caption: 'Normal interface to download certs without any editing.',
+        }
+    ],
+    links: [
+        {
+            id: 1,
+            title: 'PDF.js',
+            href: 'https://mozilla.github.io/pdf.js/',
+        },
+        {
+            id: 2,
+            title: 'html2canvas',
+            href: 'https://html2canvas.hertzen.com/',
+        },
+    ],
+},
 ];
 
 // FAQ
