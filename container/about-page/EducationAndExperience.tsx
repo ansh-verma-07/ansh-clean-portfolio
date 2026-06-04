@@ -1,7 +1,6 @@
 'use client';
 import { useEffect } from 'react';
 import TransitionLink from '@/components/TransitionLink';
-import { gyanGanga, bharati, devnovate, hwi, crdscr, alkemy_2025 } from '@/public';
 
 // Types
 interface EducationItem {
@@ -10,7 +9,6 @@ interface EducationItem {
 	institutionUrl: string;
 	degree: string;
 	duration: string;
-	image: any;
 	activities?: {
 		title: string;
 		roles: string[];
@@ -24,7 +22,6 @@ interface ExperienceItem {
 	position: string;
 	duration: string;
 	location: string;
-	image: any;
 	responsibilities: string[];
 }
 
@@ -36,7 +33,6 @@ const educationData: EducationItem[] = [
 		institutionUrl: 'https://gyangangaraipur.in/',
 		degree: 'Secondary & Higher Secondary Education',
 		duration: 'Till 2023',
-		image: gyanGanga,
 		activities: {
 			title: 'Academic & Co-Curricular Excellence',
 			roles: [
@@ -54,7 +50,6 @@ const educationData: EducationItem[] = [
 		institutionUrl: 'https://www.bvuniversity.edu.in/',
 		degree: "B.Tech in Computer Science Engineering",
 		duration: '2023 – Present',
-		image: bharati,
 		activities: {
 			title: 'Leadership & Technical Involvement',
 			roles: [
@@ -76,7 +71,6 @@ const experienceData: ExperienceItem[] = [
 		position: 'Full Stack Developer',
 		duration: 'Apr 2025 – Present',
 		location: 'Remote',
-		image: devnovate,
 		responsibilities: [
 			'Building modern, scalable web applications with a focus on usability and maintainable architecture.',
 			'Working across frontend and backend to develop end-to-end features.',
@@ -91,7 +85,6 @@ const experienceData: ExperienceItem[] = [
 		position: 'Frontend Developer Intern',
 		duration: 'Apr 2025 – May 2025',
 		location: 'Remote',
-		image: hwi,
 		responsibilities: [
 			'Developed interactive and responsive user interface components for a hackathon management platform.',
 			'Focused on performance optimization and clean UI behavior.',
@@ -105,7 +98,6 @@ const experienceData: ExperienceItem[] = [
 		position: 'Frontend Developer',
 		duration: 'Sep 2024 – Apr 2025',
 		location: 'Remote',
-		image: crdscr,
 		responsibilities: [
 			'Developed a responsive web portal for the Diabetic Retinopathy Screening (DSCR) initiative.',
 			'Implemented patient record management, appointment scheduling, and real-time alerts.',
@@ -120,7 +112,6 @@ const experienceData: ExperienceItem[] = [
 		position: 'Website Developer',
 		duration: 'Nov 2024 – Jul 2025',
 		location: 'Navi Mumbai, India · On-site',
-		image: alkemy_2025,
 		responsibilities: [
 			'Designed and developed the official Alkemy Fest website with a responsive and engaging layout.',
 			'Managed content workflows for events, schedules, and announcements.',
