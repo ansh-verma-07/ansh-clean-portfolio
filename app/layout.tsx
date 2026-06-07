@@ -11,11 +11,7 @@ import SmoothScroll from '@/components/SmoothScroll';
 import { TransitionProvider } from '@/context/TransitionContext';
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://ansh-clean-portfolio.vercel.app'),
-	title: {
-		default: 'Ansh Verma | Full Stack Developer',
-		template: '%s | Ansh Verma',
-	},
+	title: 'Ansh Verma | Full Stack Developer',
 	description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
 	keywords: [
 		'Ansh Verma',
@@ -26,35 +22,29 @@ export const metadata: Metadata = {
 		'Software Engineer',
 		'Portfolio',
 	],
-	authors: [{ name: 'Ansh Verma', url: 'https://github.com/anshvermadev' }],
-	creator: 'Ansh Verma',
+	metadataBase: new URL('https://www.ansh-verma.xyz'),
 	alternates: {
 		canonical: '/',
 	},
 	robots: {
 		index: true,
 		follow: true,
-		googleBot: {
-			index: true,
-			follow: true,
-			'max-video-preview': -1,
-			'max-image-preview': 'large',
-			'max-snippet': -1,
-		},
 	},
+	authors: [{ name: 'Ansh Verma', url: 'https://github.com/anshvermadev' }],
+	creator: 'Ansh Verma',
 	openGraph: {
-		type: 'website',
-		locale: 'en_US',
-		url: 'https://ansh-clean-portfolio.vercel.app',
 		title: 'Ansh Verma | Full Stack Developer',
 		description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
+		url: 'https://www.ansh-verma.xyz',
 		siteName: 'Ansh Verma Portfolio',
+		locale: 'en_US',
+		type: 'website',
 		images: [
 			{
-				url: '/logo.png',
+				url: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780813170/www.ansh-verma.xyz__Nest_Hub_Max_iue6bk.png',
 				width: 1200,
 				height: 630,
-				alt: 'Ansh Verma Portfolio Logo',
+				alt: 'Ansh Verma | Full Stack Developer',
 			},
 		],
 	},
@@ -62,8 +52,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Ansh Verma | Full Stack Developer',
 		description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
-		creator: '@VERMA07ANSH',
-		images: ['/logo.png'],
+		images: ['https://res.cloudinary.com/da54ofjz1/image/upload/v1780813170/www.ansh-verma.xyz__Nest_Hub_Max_iue6bk.png'],
 	},
 };
 
