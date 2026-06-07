@@ -54,7 +54,7 @@ export default function Curve({ children, backgroundColor }: CurveProps) {
 		return () => window.removeEventListener('resize', resize);
 	}, []);
 
-	const greetingsDuration = 400;
+	const greetingsDuration = 220;
 
 	useEffect(() => {
 		if (router === '/' && greetings.length > 1) {
