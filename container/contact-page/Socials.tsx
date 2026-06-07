@@ -6,7 +6,7 @@ import { Eyes } from '@/components';
 
 export default function Socials() {
 	const [rotate, setRotate] = useState(0);
-	const phrase = ['github', 'linkedin', 'instagram', 'medium'];
+	const phrase = ['github', 'linkedin', 'instagram',];
 	useEffect(() => {
 		window.addEventListener('mousemove', (e) => {
 			let mouseX = e.clientX;
