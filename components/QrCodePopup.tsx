@@ -93,7 +93,7 @@ export default function QrCodePopup({ qrImageUrl, onClose }: QrCodePopupProps) {
 				{/* <button onClick={onClose} className="absolute top-3 right-3 text-gray-500 hover:text-black transition-colors">
 					<X size={24} />
 				</button> */}
-				<Image src={qrImageUrl} alt="QR Code Muhana Naufal" className="qr-image w-64 h-64 md:w-96 md:h-96 rounded-xl object-cover" width={500} height={500} />
+				<Image src={qrImageUrl} alt="QR Code Ansh Verma" className="qr-image w-64 h-64 md:w-96 md:h-96 rounded-xl object-cover" width={500} height={500} />
 				<p className="qr-text mt-4 font-semibold text-gray-800 font-NeueMontreal">Scan to connect!</p>
 				<button onClick={handleSave} className="save-button group mt-5 flex items-center gap-2 bg-black text-white font-NeueMontreal text-sm py-3 px-6 rounded-full hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
 					<Download size={16} className="transition-transform duration-300 group-hover:-rotate-12" />
