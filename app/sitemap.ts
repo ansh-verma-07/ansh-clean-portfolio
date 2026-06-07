@@ -1,29 +1,12 @@
 import { MetadataRoute } from 'next';
-import { projectsItem } from '@/constants';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-	const baseUrl = 'https://ansh-clean-portfolio.vercel.app';
-
-	const staticPages = [
-		'',
-		'/about',
-		'/projects',
-		'/skills',
-		'/me',
-		'/contact',
-	].map((route) => ({
-		url: `${baseUrl}${route}`,
-		lastModified: new Date(),
-		changeFrequency: 'monthly' as const,
-		priority: route === '' ? 1.0 : 0.8,
-	}));
-
-	const projectPages = projectsItem.map((project) => ({
-		url: `${baseUrl}/projects/${project.slug}`,
-		lastModified: new Date(),
-		changeFrequency: 'weekly' as const,
-		priority: 0.6,
-	}));
-
-	return [...staticPages, ...projectPages];
+export default function robots(): MetadataRoute.Robots {
+	return {
+		rules: {
+			userAgent: '*',
+			allow: '/',
+			disallow: '/api/',
+		},
+		sitemap: 'https://www.ansh-verma.xyz/sitemap.xml',
+	};
 }
