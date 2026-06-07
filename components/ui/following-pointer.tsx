@@ -118,7 +118,7 @@ export const FollowPointer = ({ x, y, title, isCustomHover }: { x: any; y: any; 
 				}}
 				className={'ps-2 pe-3 py-2 bg-neutral-200 text-white font-NeueMontreal whitespace-nowrap min-w-max text-sm rounded-full'}
 			>
-				{title || `Muhana Naufal`}
+				{title || `Ansh Verma`}
 			</motion.div>
 		</motion.div>
 	);
