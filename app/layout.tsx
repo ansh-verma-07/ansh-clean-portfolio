@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		images: [
 			{
-				url: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780813170/www.ansh-verma.xyz__Nest_Hub_Max_iue6bk.png',
+				url: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780813996/og-image_pvvdqc.jpg',
 				width: 1200,
 				height: 630,
 				alt: 'Ansh Verma | Full Stack Developer',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Ansh Verma | Full Stack Developer',
 		description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
-		images: ['https://res.cloudinary.com/da54ofjz1/image/upload/v1780813170/www.ansh-verma.xyz__Nest_Hub_Max_iue6bk.png'],
+		images: ['https://res.cloudinary.com/da54ofjz1/image/upload/v1780813996/og-image_pvvdqc.jpg'],
 	},
 };
 
