@@ -73,7 +73,7 @@ const getErrorMessage = (error: unknown) => {
 const Form = () => {
 	const formRef = useRef<HTMLFormElement>(null);
 	const addToast = useToastStore((state) => state.addToast);
-	const [activeTab, setActiveTab] = useState<'project' | 'general'>('project');
+	const [activeTab, setActiveTab] = useState<'project' | 'general'>('general');
 	const [isProjectSending, setIsProjectSending] = useState(false);
 	const [isGeneralSending, setIsGeneralSending] = useState(false);
 
@@ -264,17 +264,6 @@ const Form = () => {
 			<div className="w-full flex gap-4 mb-8 border-b border-black/20 -mt-4">
 				<button
 					type="button"
-					onClick={() => setActiveTab('project')}
-					className={`pb-4 px-6 font-NeueMontreal font-normal text-lg transition-all duration-300 ${
-						activeTab === 'project'
-							? 'text-secondry border-b-2 border-secondry'
-							: 'text-secondry/50 hover:text-secondry/80'
-					}`}
-				>
-					Project Inquiry
-				</button>
-				<button
-					type="button"
 					onClick={() => setActiveTab('general')}
 					className={`pb-4 px-6 font-NeueMontreal font-normal text-lg transition-all duration-300 ${
 						activeTab === 'general'
@@ -283,6 +272,17 @@ const Form = () => {
 					}`}
 				>
 					General Inquiry
+				</button>
+				<button
+					type="button"
+					onClick={() => setActiveTab('project')}
+					className={`pb-4 px-6 font-NeueMontreal font-normal text-lg transition-all duration-300 ${
+						activeTab === 'project'
+							? 'text-secondry border-b-2 border-secondry'
+							: 'text-secondry/50 hover:text-secondry/80'
+					}`}
+				>
+					Project Inquiry
 				</button>
 			</div>
 
