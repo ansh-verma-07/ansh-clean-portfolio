@@ -212,7 +212,7 @@ export const projectsItem = [
 			"As the lead Frontend Developer on the team, I developed the user interface using EJS templates and Tailwind CSS, focusing on a clean, accessible layout for doctors to record diabetic profiling, ophthalmic parameters, and visualize longitudinal patient histories. The platform features automated PDF report generation and WhatsApp delivery system to send results directly to patients.",
 			"The backend is built using Node.js/Express.js with a PostgreSQL database, secured with passport.js authentication (Local & Google OAuth 2.0). Headless Puppeteer runs inside Docker containers to reliably host the WhatsApp client, while exceljs integration enables doctors to export patient data for clinical audits."
 		],
-		repoUrl: '',
+		repoUrl: 'https://github.com/anshvermadev/Central-Railway-DSCR-Portal',
 		liveUrl: '',
 		stack: ['Node.js', 'Express.js', 'PostgreSQL', 'Tailwind', 'EJS', 'Docker', 'Puppeteer'],
 		gallery: [
