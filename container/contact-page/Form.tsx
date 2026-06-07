@@ -379,7 +379,7 @@ const Form = () => {
 								<div className="w-full relative pb-5">
 									<input
 										type="email"
-										placeholder="muhananaufal@example.com*"
+										placeholder="anshverma@example.com*"
 										{...projectForm.register('email')}
 										className="paragraph bg-transparent font-NeueMontreal font-normal text-secondry border-b border-black focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 									/>
@@ -450,7 +450,7 @@ const Form = () => {
 								<div className="w-full relative pb-5">
 									<input
 										type="email"
-										placeholder="muhananaufal@example.com*"
+										placeholder="anshverma@example.com*"
 										{...generalForm.register('email')}
 										className="paragraph bg-transparent font-NeueMontreal font-normal text-secondry border-b border-black focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 									/>
