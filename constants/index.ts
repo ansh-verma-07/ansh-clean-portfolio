@@ -145,7 +145,7 @@ export const projectsItem = [
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551060/1_qjy0bt.jpg',
 		role: 'Lead Frontend Developer & Interactive Designer',
 		client: 'Bharati Vidyapeeth University DET & DMS',
-		timeline: 'Jan 2025 - Feb 2025',
+		timeline: 'Jan 2025 - Mar 2025',
 		challengeTitle: 'Modernizing College Traditions with a Medieval Flare',
 		solutionTitle: 'An Interactive Portal combining Medieval Aesthetics with modern React',
 		summary: [
@@ -317,7 +317,7 @@ export const projectsItem = [
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551151/vibe-hack_ylgbir.png',
 		role: 'Senior Full Stack & Infrastructure Engineer',
 		client: 'Developer Community Showcase',
-		timeline: 'Feb 2025 - Mar 2025',
+		timeline: 'Aug 2025 - Sep 2025',
 		challengeTitle: 'Scaling Rich-Text Publishing for Modern Web Developers',
 		solutionTitle: 'A Scalable MERN Stack Platform Optimized with Redis Caching',
 		summary: [
@@ -457,7 +457,7 @@ export const projectsItem = [
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551150/ai-news-aggregator_hp2dog.png',
 		role: 'NLP Engineer & Lead Architect',
 		client: 'Academic AI Research Showcase',
-		timeline: 'Sep 2024 - Oct 2024',
+		timeline: 'Oct 2025',
 		challengeTitle: 'Mitigating AI Hallucinations in Automated News Summaries',
 		solutionTitle: 'A Flask & React Dashboard with Entity Validation & Sentiment Scoring',
 		summary: [
@@ -619,7 +619,7 @@ export const projectsItem = [
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
 		role: 'Solo Developer',
 		client: 'Personal / Open Source',
-		timeline: 'Jun 2024',
+		timeline: 'Apr 2026',
 		challengeTitle: 'Targeted Demographics Extraction from Complex Identity Cards',
 		solutionTitle: 'YOLOv8 Regional Segmentation + Preprocessing + Tesseract OCR Pipeline',
 		summary: [
