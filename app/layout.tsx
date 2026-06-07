@@ -11,8 +11,60 @@ import SmoothScroll from '@/components/SmoothScroll';
 import { TransitionProvider } from '@/context/TransitionContext';
 
 export const metadata: Metadata = {
-	title: 'Ansh Verma',
-	description: 'A student from AMIKOM Yogyakarta University, web developer, cloud computing enthusiast, and anime enthusiast.',
+	metadataBase: new URL('https://ansh-clean-portfolio.vercel.app'),
+	title: {
+		default: 'Ansh Verma | Full Stack Developer',
+		template: '%s | Ansh Verma',
+	},
+	description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
+	keywords: [
+		'Ansh Verma',
+		'Ansh Verma Developer',
+		'Full Stack Developer',
+		'React Developer',
+		'Next.js Developer',
+		'Software Engineer',
+		'Portfolio',
+	],
+	authors: [{ name: 'Ansh Verma', url: 'https://github.com/anshvermadev' }],
+	creator: 'Ansh Verma',
+	alternates: {
+		canonical: '/',
+	},
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
+	},
+	openGraph: {
+		type: 'website',
+		locale: 'en_US',
+		url: 'https://ansh-clean-portfolio.vercel.app',
+		title: 'Ansh Verma | Full Stack Developer',
+		description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
+		siteName: 'Ansh Verma Portfolio',
+		images: [
+			{
+				url: '/logo.png',
+				width: 1200,
+				height: 630,
+				alt: 'Ansh Verma Portfolio Logo',
+			},
+		],
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Ansh Verma | Full Stack Developer',
+		description: 'Ansh Verma is a full-stack developer who enjoys building well-structured web applications and turning ideas into practical, user-friendly products.',
+		creator: '@VERMA07ANSH',
+		images: ['/logo.png'],
+	},
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
