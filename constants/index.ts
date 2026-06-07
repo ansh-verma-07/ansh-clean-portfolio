@@ -566,6 +566,56 @@ export const projectsItem = [
         },
     ],
 },
+{
+	id: 8,
+	slug: 'aadhaar-card-data-extractor',
+	title: 'Aadhaar Card Data Extractor',
+	src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
+	role: 'Solo Developer',
+	client: 'Personal / Open Source',
+	timeline: 'Jun 2024',
+	challengeTitle: 'Targeted Demographics Extraction from Complex Identity Cards',
+	solutionTitle: 'YOLOv8 Regional Segmentation + Preprocessing + Tesseract OCR Pipeline',
+	summary: [
+		"<strong>Aadhaar Card Data Extractor</strong> is an intelligent, full-stack hybrid AI application that automates the extraction of key demographic fields (Name, Date of Birth, Gender, and Aadhaar Number) from Aadhaar cards. It utilizes a custom-trained <strong>YOLOv8</strong> object detection model to locate text regions, applies advanced <strong>OpenCV</strong> preprocessing filters for text clarity, and runs <strong>Tesseract OCR</strong> to parse the content with high-accuracy fallbacks.",
+		"Designed with a modular <strong>FastAPI</strong> backend and a modern <strong>drag-and-drop web UI</strong> built using Vanilla JS, HTML5, and CSS3, the application processes images in a pipeline: Preprocessing -> YOLOv8 Inference -> OCR -> Structured JSON Data. It eliminates background noise by targeting specific Regions of Interest (ROI) and cropping high-resolution segments from original images.",
+		"To handle bad lighting or rotation, the backend incorporates robust fallback logic, including a full-card OCR text scan and targeted bottom-half sweeps. This hybrid approach makes it production-ready for onboarding, KYC verification, and automated data entry workflows."
+	],
+	repoUrl: 'https://github.com/anshvermadev/Aadhaar-Card-Data-Extractor',
+	liveUrl: '',
+	stack: ['Python', 'FastAPI', 'YOLOv8', 'Tesseract OCR', 'HTML', 'CSS', 'JavaScript'],
+	gallery: [
+		{
+			image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
+			caption: 'Sleek dark mode dashboard with drag-and-drop file upload zone and side-by-side extracted data.',
+		},
+		{
+			image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/2_mv7t4g.png',
+			caption: 'Modern responsive landing page showing the drag-and-drop document upload state.',
+		},
+		{
+			image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/3_mvgwgu.png',
+			caption: 'Interactive results dashboard displaying the output that can be directly copied to the clipboard.',
+		},
+	],
+	links: [
+		{
+			id: 1,
+			title: 'FastAPI',
+			href: 'https://fastapi.tiangolo.com/',
+		},
+		{
+			id: 2,
+			title: 'YOLOv8',
+			href: 'https://github.com/ultralytics/ultralytics',
+		},
+		{
+			id: 3,
+			title: 'Tesseract OCR',
+			href: 'https://github.com/tesseract-ocr/tesseract',
+		},
+	],
+},
 ];
 
 // FAQ
