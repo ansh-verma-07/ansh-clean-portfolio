@@ -575,56 +575,47 @@ export const FaqItems = [
 		question: 'What technologies do you specialize in for web development?',
 		title: 'Description',
 		description:
-			'We work with modern frameworks like React.js, Next.js, and Tailwind for frontend. For backend, we use Node.js or Laravel. Our database expertise spans SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) or BaaS (Firebase, Supabase)',
-
+			'I specialize in full-stack development, utilizing React.js, Next.js, and Tailwind CSS for the frontend, and Node.js, Express.js, and TypeScript for the backend. I work with MySQL, MongoDB, and Redis databases.',
 		button: 'more',
 	},
 	{
 		id: 2,
 		question: 'Can you deploy applications to cloud platforms?',
 		title: 'Description',
-		description: 'Absolutely! We handle deployment on platforms like AWS, Google Cloud, and even serverless architectures like Vercel.',
-
+		description:
+			'Yes, I handle cloud hosting and deployments on platforms like AWS, Vercel, and Netlify, setting up continuous deployment pipelines for robust and scalable applications.',
 		button: 'more',
 	},
 	{
 		id: 3,
-		question: 'Do you offer API development and integration services?',
+		question: 'What is your approach to API development and backend services?',
 		title: 'Description',
-		description: 'Yes, we design and develop RESTful APIs, ensuring efficient data exchange. We also integrate third-party APIs for payment systems, social media, cloud services, and more.',
-
+		description:
+			'I design and implement RESTful APIs and backend architectures. I have experience securing services with JWT, handling real-time database state (such as Firebase), and managing complex database queries.',
 		button: 'more',
 	},
 	{
 		id: 4,
-		question: 'Can you migrate existing applications to the cloud?',
+		question: 'How do you ensure scalability and performance in your projects?',
 		title: 'Description',
-		description: 'We specialize in cloud migrations, whether it’s rehosting, refactoring, or re-architecting your application for the cloud.',
-
+		description:
+			'I implement server-side rendering (SSR) and static generation (SSG) via Next.js, optimize rendering workflows, utilize Redis caching to reduce database overhead, and optimize client-side assets to ensure quick load times.',
 		button: 'more',
 	},
 	{
 		id: 5,
-		question: 'How do you ensure scalability in your projects?',
+		question: 'What major achievements and recognitions have you received?',
 		title: 'Description',
-		description: 'We implement scalable architectures using microservices and containerization (e.g., Docker, Kubernetes).',
-
+		description:
+			'I received official Letters of Appreciation from the Chief Medical Superintendent of Central Railway (for the DSCR portal) and the Principal of BVDU DET NM (for ALKEMY 2025, Library Barcode Generator, and Dental Patient Awareness System). I also won 1st Prize at VibeHack 2025 and served as Main Organizing Coordinator for Hack With Mumbai.',
 		button: 'more',
 	},
 	{
 		id: 6,
-		question: 'Do you provide performance optimization for web apps?',
+		question: 'What featured projects have you built?',
 		title: 'Description',
-		description: 'Absolutely. We optimize load times, reduce server costs, and improve overall performance using techniques like caching, CDN integration, and database indexing.',
-
-		button: 'more',
-	},
-	{
-		id: 7,
-		question: 'What’s your approach to testing and quality assurance?',
-		title: 'Description',
-		description: 'We use both automated and manual testing methods, including unit testing, integration testing, and load testing, to ensure your application performs flawlessly.',
-
+		description:
+			'My featured projects include: the DSCR Portal for Central Railway, Alkemy 2025 (medieval-themed fest website), VibeHack 2025 (full-stack blogging platform), SkillXChange (skill-swapping platform), AEXIS Build (product platform), Velvora Cakes (e-commerce), Designivore, Library Barcode Generator, and CheckIn.',
 		button: 'more',
 	},
 ];
