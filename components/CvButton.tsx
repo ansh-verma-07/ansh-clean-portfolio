@@ -1,3 +1,5 @@
+'use client';
+
 // components/CvButton.tsx
 
 import { motion } from 'framer-motion';
