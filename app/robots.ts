@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
 			allow: '/',
 			disallow: '/api/',
 		},
-		sitemap: 'https://ansh-clean-portfolio.vercel.app/sitemap.xml',
+		sitemap: 'https://www.ansh-verma.xyz/sitemap.xml',
 	};
 }
