@@ -199,6 +199,52 @@ export const projectsItem = [
 	},
 	{
 		id: 2,
+		slug: 'dscr-portal',
+		title: 'Diabetic Retinopathy Screening (DSCR)',
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780812623/DSCR-Login-Portal_png_scene_agavjz.png',
+		role: 'Frontend Developer',
+		client: 'Central Railway (Divisional Railway Hospital, Mumbai)',
+		timeline: 'Sep 2024 - Apr 2025',
+		challengeTitle: 'Fragmented Clinical Records and Manual Patient Scheduling',
+		solutionTitle: 'A Secure End-to-End Screening Portal with Automated WhatsApp Delivery',
+		summary: [
+			"<strong>Central Railway - Diabetic Retinopathy Screening (DSCR)</strong> is a secure, patient-and-doctor-facing clinical web portal designed for the Divisional Railway Hospital, Mumbai Division (Central Railway). It streamlines patient scheduling, clinical recording, and secure data handling for diabetic retinopathy (DR) and macular edema (ME) screenings. It has been recognized with an official Letter of Appreciation from the Chief Medical Superintendent.",
+			"As the lead Frontend Developer on the team, I developed the user interface using EJS templates and Tailwind CSS, focusing on a clean, accessible layout for doctors to record diabetic profiling, ophthalmic parameters, and visualize longitudinal patient histories. The platform features automated PDF report generation and WhatsApp delivery system to send results directly to patients.",
+			"The backend is built using Node.js/Express.js with a PostgreSQL database, secured with passport.js authentication (Local & Google OAuth 2.0). Headless Puppeteer runs inside Docker containers to reliably host the WhatsApp client, while exceljs integration enables doctors to export patient data for clinical audits."
+		],
+		repoUrl: '',
+		liveUrl: '',
+		stack: ['Node.js', 'Express.js', 'PostgreSQL', 'Tailwind', 'EJS', 'Docker', 'Puppeteer'],
+		gallery: [
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780812623/DSCR-Login-Portal_png_scene_agavjz.png',
+				caption: 'Login Portal',
+			},
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780812625/Letter_of_Appreciation___Central_Railway__Chief_Medical_Superintendent_jpg_scene_offfz9.png',
+				caption: 'Letter of Appreciation from the Chief Medical Superintendent',
+			},
+		],
+		links: [
+			{
+				id: 1,
+				title: 'Express.js',
+				href: 'https://expressjs.com/',
+			},
+			{
+				id: 2,
+				title: 'PostgreSQL',
+				href: 'https://www.postgresql.org/',
+			},
+			{
+				id: 3,
+				title: 'Docker',
+				href: 'https://www.docker.com/',
+			},
+		],
+	},
+	{
+		id: 3,
 		slug: 'skillxchange',
 		title: 'SkillXChange',
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551110/1_w8tzqb.jpg',
@@ -265,7 +311,7 @@ export const projectsItem = [
 		],
 	},
 	{
-		id: 3,
+		id: 4,
 		slug: 'modern-blogging-platform',
 		title: 'Modern Blogging Platform',
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551151/vibe-hack_ylgbir.png',
@@ -338,7 +384,7 @@ export const projectsItem = [
 		],
 	},
 	{
-		id: 4,
+		id: 5,
 		slug: 'patient-awareness-system',
 		title: 'Patient Awareness System',
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551152/dental-learning_bztgce.png',
@@ -405,7 +451,7 @@ export const projectsItem = [
 		],
 	},
 	{
-		id: 5,
+		id: 6,
 		slug: 'ai-news-aggregator',
 		title: 'AI News Aggregator',
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551150/ai-news-aggregator_hp2dog.png',
@@ -461,7 +507,7 @@ export const projectsItem = [
 		],
 	},
 	{
-		id: 6,
+		id: 7,
 		slug: 'ecell-launchpad',
 		title: 'E-Cell Launchpad',
 		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780551150/launchpad_xstr8o.png',
@@ -519,103 +565,103 @@ export const projectsItem = [
 		],
 	},
 	{
-    id: 7,
-    slug: 'rawcert',
-    title: 'RawCert',
-    src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/2_dmhgqj.png',
-    role: 'Solo Developer',
-    client: 'Personal / Open Source',
-    timeline: 'May 2026',
-    challengeTitle: 'Certificates Deserve Better Than Getting Cropped',
-    solutionTitle: 'A Neo-Brutalist Scene Generator for Social-Ready Credentials',
-    summary: [
-        "<strong>RawCert</strong> is a premium, browser-based certificate scene generator that transforms raw landscape PDFs and images into cinematic, scroll-stopping social media showcases — wrapping credentials inside a high-fidelity macOS window mockup set against rich gradient backdrops.",
-        "<strong>RawCert</strong> is built as a zero-dependency, single-file static application with a bold Neo-Brutalist design system, featuring drag-and-drop uploads, interactive styling controls, a curated wallpaper engine, and one-click high-resolution PNG export optimized for every major social platform."
-    ],
-    repoUrl: 'https://github.com/anshvermadev/RawCert-Premium-Certificate-Scene-Generator',
-    liveUrl: '',
-    stack: ['HTML', 'CSS', 'JavaScript', 'PDF.js', 'html2canvas'],
-    gallery: [
-        {
-            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/1_nnm85g.png',
-            caption: 'RawCert editor with Neo-Brutalist interface.',
-        },
-        {
-            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554206/3_kc53mm.png',
-            caption: 'Backdrop wallpaper engine with curated gradient presets and theme options.',
-        },
-        {
-            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554207/4_ics0d2.png',
-            caption: 'macOS window mockup with interactive shadow and border controls.',
-        },
-        {
-            image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/2_dmhgqj.png',
-            caption: 'Normal interface to download certs without any editing.',
-        }
-    ],
-    links: [
-        {
-            id: 1,
-            title: 'PDF.js',
-            href: 'https://mozilla.github.io/pdf.js/',
-        },
-        {
-            id: 2,
-            title: 'html2canvas',
-            href: 'https://html2canvas.hertzen.com/',
-        },
-    ],
-},
-{
-	id: 8,
-	slug: 'aadhaar-card-data-extractor',
-	title: 'Aadhaar Card Data Extractor',
-	src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
-	role: 'Solo Developer',
-	client: 'Personal / Open Source',
-	timeline: 'Jun 2024',
-	challengeTitle: 'Targeted Demographics Extraction from Complex Identity Cards',
-	solutionTitle: 'YOLOv8 Regional Segmentation + Preprocessing + Tesseract OCR Pipeline',
-	summary: [
-		"<strong>Aadhaar Card Data Extractor</strong> is an intelligent, full-stack hybrid AI application that automates the extraction of key demographic fields (Name, Date of Birth, Gender, and Aadhaar Number) from Aadhaar cards. It utilizes a custom-trained <strong>YOLOv8</strong> object detection model to locate text regions, applies advanced <strong>OpenCV</strong> preprocessing filters for text clarity, and runs <strong>Tesseract OCR</strong> to parse the content with high-accuracy fallbacks.",
-		"Designed with a modular <strong>FastAPI</strong> backend and a modern <strong>drag-and-drop web UI</strong> built using Vanilla JS, HTML5, and CSS3, the application processes images in a pipeline: Preprocessing -> YOLOv8 Inference -> OCR -> Structured JSON Data. It eliminates background noise by targeting specific Regions of Interest (ROI) and cropping high-resolution segments from original images.",
-		"To handle bad lighting or rotation, the backend incorporates robust fallback logic, including a full-card OCR text scan and targeted bottom-half sweeps. This hybrid approach makes it production-ready for onboarding, KYC verification, and automated data entry workflows."
-	],
-	repoUrl: 'https://github.com/anshvermadev/Aadhaar-Card-Data-Extractor',
-	liveUrl: '',
-	stack: ['Python', 'FastAPI', 'YOLOv8', 'Tesseract OCR', 'HTML', 'CSS', 'JavaScript'],
-	gallery: [
-		{
-			image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
-			caption: 'Sleek dark mode dashboard with drag-and-drop file upload zone and side-by-side extracted data.',
-		},
-		{
-			image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/2_mv7t4g.png',
-			caption: 'Modern responsive landing page showing the drag-and-drop document upload state.',
-		},
-		{
-			image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/3_mvgwgu.png',
-			caption: 'Interactive results dashboard displaying the output that can be directly copied to the clipboard.',
-		},
-	],
-	links: [
-		{
-			id: 1,
-			title: 'FastAPI',
-			href: 'https://fastapi.tiangolo.com/',
-		},
-		{
-			id: 2,
-			title: 'YOLOv8',
-			href: 'https://github.com/ultralytics/ultralytics',
-		},
-		{
-			id: 3,
-			title: 'Tesseract OCR',
-			href: 'https://github.com/tesseract-ocr/tesseract',
-		},
-	],
-},
+		id: 8,
+		slug: 'rawcert',
+		title: 'RawCert',
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/2_dmhgqj.png',
+		role: 'Solo Developer',
+		client: 'Personal / Open Source',
+		timeline: 'May 2026',
+		challengeTitle: 'Certificates Deserve Better Than Getting Cropped',
+		solutionTitle: 'A Neo-Brutalist Scene Generator for Social-Ready Credentials',
+		summary: [
+			"<strong>RawCert</strong> is a premium, browser-based certificate scene generator that transforms raw landscape PDFs and images into cinematic, scroll-stopping social media showcases — wrapping credentials inside a high-fidelity macOS window mockup set against rich gradient backdrops.",
+			"<strong>RawCert</strong> is built as a zero-dependency, single-file static application with a bold Neo-Brutalist design system, featuring drag-and-drop uploads, interactive styling controls, a curated wallpaper engine, and one-click high-resolution PNG export optimized for every major social platform."
+		],
+		repoUrl: 'https://github.com/anshvermadev/RawCert-Premium-Certificate-Scene-Generator',
+		liveUrl: '',
+		stack: ['HTML', 'CSS', 'JavaScript', 'PDF.js', 'html2canvas'],
+		gallery: [
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/1_nnm85g.png',
+				caption: 'RawCert editor with Neo-Brutalist interface.',
+			},
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554206/3_kc53mm.png',
+				caption: 'Backdrop wallpaper engine with curated gradient presets and theme options.',
+			},
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554207/4_ics0d2.png',
+				caption: 'macOS window mockup with interactive shadow and border controls.',
+			},
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780554205/2_dmhgqj.png',
+				caption: 'Normal interface to download certs without any editing.',
+			}
+		],
+		links: [
+			{
+				id: 1,
+				title: 'PDF.js',
+				href: 'https://mozilla.github.io/pdf.js/',
+			},
+			{
+				id: 2,
+				title: 'html2canvas',
+				href: 'https://html2canvas.hertzen.com/',
+			},
+		],
+	},
+	{
+		id: 9,
+		slug: 'aadhaar-card-data-extractor',
+		title: 'Aadhaar Card Data Extractor',
+		src: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
+		role: 'Solo Developer',
+		client: 'Personal / Open Source',
+		timeline: 'Jun 2024',
+		challengeTitle: 'Targeted Demographics Extraction from Complex Identity Cards',
+		solutionTitle: 'YOLOv8 Regional Segmentation + Preprocessing + Tesseract OCR Pipeline',
+		summary: [
+			"<strong>Aadhaar Card Data Extractor</strong> is an intelligent, full-stack hybrid AI application that automates the extraction of key demographic fields (Name, Date of Birth, Gender, and Aadhaar Number) from Aadhaar cards. It utilizes a custom-trained <strong>YOLOv8</strong> object detection model to locate text regions, applies advanced <strong>OpenCV</strong> preprocessing filters for text clarity, and runs <strong>Tesseract OCR</strong> to parse the content with high-accuracy fallbacks.",
+			"Designed with a modular <strong>FastAPI</strong> backend and a modern <strong>drag-and-drop web UI</strong> built using Vanilla JS, HTML5, and CSS3, the application processes images in a pipeline: Preprocessing -> YOLOv8 Inference -> OCR -> Structured JSON Data. It eliminates background noise by targeting specific Regions of Interest (ROI) and cropping high-resolution segments from original images.",
+			"To handle bad lighting or rotation, the backend incorporates robust fallback logic, including a full-card OCR text scan and targeted bottom-half sweeps. This hybrid approach makes it production-ready for onboarding, KYC verification, and automated data entry workflows."
+		],
+		repoUrl: 'https://github.com/anshvermadev/Aadhaar-Card-Data-Extractor',
+		liveUrl: '',
+		stack: ['Python', 'FastAPI', 'YOLOv8', 'Tesseract OCR', 'HTML', 'CSS', 'JavaScript'],
+		gallery: [
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/1_baz0jt.png',
+				caption: 'Sleek dark mode dashboard with drag-and-drop file upload zone and side-by-side extracted data.',
+			},
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/2_mv7t4g.png',
+				caption: 'Modern responsive landing page showing the drag-and-drop document upload state.',
+			},
+			{
+				image: 'https://res.cloudinary.com/da54ofjz1/image/upload/v1780810613/3_mvgwgu.png',
+				caption: 'Interactive results dashboard displaying the output that can be directly copied to the clipboard.',
+			},
+		],
+		links: [
+			{
+				id: 1,
+				title: 'FastAPI',
+				href: 'https://fastapi.tiangolo.com/',
+			},
+			{
+				id: 2,
+				title: 'YOLOv8',
+				href: 'https://github.com/ultralytics/ultralytics',
+			},
+			{
+				id: 3,
+				title: 'Tesseract OCR',
+				href: 'https://github.com/tesseract-ocr/tesseract',
+			},
+		],
+	},
 ];
 
 // FAQ
