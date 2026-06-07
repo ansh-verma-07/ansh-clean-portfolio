@@ -1,6 +1,6 @@
 // constants/actions.ts
 
-import { Home, User, FolderKanban, Award, MessageSquare, Link, Mail, Github, Linkedin, Newspaper, Instagram, MessageCircleMore, Facebook, Play, Pause, SkipBack, SkipForward, FileDown, Code } from 'lucide-react';
+import { Home, User, FolderKanban, Award, MessageSquare, Link, Mail, Github, Linkedin, Twitter, Instagram, Play, Pause, SkipBack, SkipForward, FileDown, Code } from 'lucide-react';
 import { usePlayerStore } from '@/store/usePlayerStore';
 import type { ActionGroup } from '@/types/actions';
 import { toast } from 'sonner';
@@ -34,7 +34,7 @@ export const getActions = (): ActionGroup[] => {
 				{
 					id: 'copy-email',
 					title: 'Copy Email',
-					onSelect: () => navigator.clipboard.writeText('muhananaufal8@gmail.com'),
+					onSelect: () => navigator.clipboard.writeText('verma.07ansh@gmail.com'),
 					icon: Mail,
 					shortcut: '⇧ E',
 				},
@@ -77,13 +77,11 @@ export const getActions = (): ActionGroup[] => {
 			group: 'Social & Links',
 			items: [
 				{ id: 'linktree', title: 'Linktree', href: '/me', icon: Link, shortcut: '⌘ ⇧ T' },
-				{ id: 'github', title: 'GitHub', href: 'https://github.com/muhananaufal', icon: Github, shortcut: '⌘ ⇧ G' },
-				{ id: 'linkedin', title: 'LinkedIn', href: 'https://www.linkedin.com/in/muhana-naufal/', icon: Linkedin, shortcut: '⌘ ⇧ L' },
-				{ id: 'medium', title: 'Medium', href: 'https://medium.com/@muhananaufal/', icon: Newspaper, shortcut: '⌘ ⇧ M' },
-				{ id: 'instagram', title: 'Instagram', href: 'https://www.instagram.com/_muhananaufal_/', icon: Instagram, shortcut: '⌘ ⇧ I' },
-				{ id: 'whatsapp', title: 'WhatsApp', href: 'https://wa.me/+6285799470985', icon: MessageCircleMore, shortcut: '⌘ ⇧ W' },
-				{ id: 'facebook', title: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100022179201787/', icon: Facebook, shortcut: '⌘ ⇧ F' },
-				{ id: 'source-code', title: 'View Source Code', href: 'https://github.com/muhananaufal/muhananaufal-portfolio', icon: Code, shortcut: '⌘ ⇧ S' },
+				{ id: 'github', title: 'GitHub', href: 'https://github.com/anshvermadev', icon: Github, shortcut: '⌘ ⇧ G' },
+				{ id: 'linkedin', title: 'LinkedIn', href: 'https://www.linkedin.com/in/ansh-verma-37504b2b7/', icon: Linkedin, shortcut: '⌘ ⇧ L' },
+				{ id: 'twitter', title: 'Twitter', href: 'https://x.com/VERMA07ANSH', icon: Twitter, shortcut: '⌘ ⇧ X' },
+				{ id: 'instagram', title: 'Instagram', href: 'https://www.instagram.com/verma_07ansh/', icon: Instagram, shortcut: '⌘ ⇧ I' },
+				{ id: 'source-code', title: 'View Source Code', href: 'https://github.com/anshvermadev/ansh-portfolio', icon: Code, shortcut: '⌘ ⇧ S' },
 			],
 		},
 	];
