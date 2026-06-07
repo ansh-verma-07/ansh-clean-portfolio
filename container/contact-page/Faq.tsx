@@ -32,7 +32,7 @@ export default function Faq() {
 			<div className="padding-x pb-[50px] sm:mt-5 mt-0">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry blend-target w-fit">
 					A few things you <br />
-					may want to ask us:
+					may want to ask me:
 				</h1>
 			</div>
 			{FaqItems.map((item) => (
